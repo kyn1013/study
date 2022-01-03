@@ -12,7 +12,7 @@ css가 있기 전에 <font>태그가 있었음 →웹페이지로서의 정보�
 - style이라는 속성을 직접사용하면 그 속성의 값을 css로 해석함
 - style에서 하나의 선택자에서 여러개의 속성을 지정할 수 있는데 하나의 속성이 끝나면 ;을 붙여줌으로써 구분을 해줘야 함
 
-![Untitled](CSS%200898ff3b3453457ebec50d3ca87bfe2d/Untitled%201.png)
+![Untitled](CSS/Untitled%201.png)
 
 ![Untitled](CSS%200898ff3b3453457ebec50d3ca87bfe2d/Untitled%202.png)
 
