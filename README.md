@@ -1,4 +1,4 @@
-# tudy
+# Study
 
 # CSS
 
