@@ -1,8 +1,8 @@
 # HTML
 
-![Untitled](HTML%20dbc6c278e6b14732bcbecc9a66a83089/Untitled.png)
+![Untitled](HTML/Untitled.png)
 
-![Untitled](HTML%20dbc6c278e6b14732bcbecc9a66a83089/Untitled%201.png)
+![Untitled](HTML/Untitled%201.png)
 
 HTML:하이퍼텍스트(링크)를 가장 중요한 특징으로 하는 마크업이라는 형식을 가진 컴퓨터 프로그래밍 언어 →만들고 싶은 웹 페이지가 있을 때 그 웹 페이지가 어떻게 생겼고, 어떤 정보를 가지고 있어야 되는지를 웹 브라우저에게 명령할 때 사용하는, 우리도 이해할 수 있고, 웹 브라우저도 이해할 수 있는 언어를 말함
 
@@ -24,6 +24,6 @@ HTML:하이퍼텍스트(링크)를 가장 중요한 특징으로 하는 마크�
 - 본문을 설명하는 태그는 <head>태그로 묶고 제목을 설명하는 태그는 <body>태그로 묶기로 약속함
 - 모든 태그를 묶는 태그는 <html>, 맨 위에 쓴 문장은 관용적으로 이 문서는 html에 있다는 뜻
 
-![Untitled](HTML%20dbc6c278e6b14732bcbecc9a66a83089/Untitled%202.png)
+![Untitled](HTML/Untitled%202.png)
 
 - <a href=”링크주소”></a> 링크를 걸 때 사용하는 태그
