@@ -28,7 +28,7 @@
 
 - 숫자 연산자
 
-![Untitled](JAVA.png)
+![Untitled](JAVA/Untitled1.png)
 
 - 수학적 작업도 가능
 
