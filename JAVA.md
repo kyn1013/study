@@ -6,7 +6,7 @@
 
 - java의 동작원리
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled.png)
+![Untitled](JAVA/Untitled.png)
 
 원인을 부름(sorce code language) → 결과를 부름(application program)
 
