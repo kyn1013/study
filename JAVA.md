@@ -28,11 +28,11 @@
 
 - 숫자 연산자
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%201.png)
+![Untitled](JAVA.png)
 
 - 수학적 작업도 가능
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%202.png)
+![Untitled](JAVA.png)
 
 - 자바에서 문자열(String)은 “”을 사용, 문자(한 글자,Character)는 ‘’을 사용  (엄격하게 구분해야 함)
     - 줄바꿈 (\n), 큰따옴표 출력(\”)
@@ -50,7 +50,7 @@
 
 - 데이터 타입의 변환(Casting)
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%203.png)
+![Untitled](JAVA.png)
 
 1.1을 정수로 바꾸면 소수점 아래에 있는 것들은 사라지므로 손실이 일어남→명시적으로 형변환
 
@@ -68,7 +68,7 @@
 - 입력과 출력
     - 프로그램:들어오는 정보인 입력을 처리해서 출력을 만들어내는 기계라고 할 수 있음
     
-    ![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%204.png)
+    ![Untitled](JAVA.png)
     
 - arguments & parameter
     - 매개변수(parameter):프로그램을 사용하는 사람과 프로그램 사이의 값을 매개해줌 (args)
@@ -86,11 +86,11 @@ cmd 실행 →cd 소스코드가 있는 곳 path→javac 소스코드 이름.jav
 
 java에게 Program클래스 파일을 실행하라고 명령→자바가 클래스 이름과 같은 클래스 파일을 찾음→main을 찾음→main안에 있는 코드들을 순차적으로 실행하고 종료
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%205.png)
+![Untitled](JAVA.png)
 
 →라이브러리 경로를 지정해줘야 하는 경우
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%206.png)
+![Untitled](JAVA.png)
 
 class path가 ib폴더 아래에 있다라는 뜻, .은 현재 디렉토리라는 의미
 
@@ -98,14 +98,14 @@ Exception:에러
 
 →입력값을 따로 지정해줘야하는 경우
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%207.png)
+![Untitled](JAVA.png)
 
 - 자바 문서 링크 [https://docs.oracle.com/javase/7/docs/api/](https://docs.oracle.com/javase/7/docs/api/)
     - class:서로 연관된 변수와 매소드를 모아서 이름을 붙인 것
     - 패키지:비슷한 성격의 클래스를 모아서 이름을 붙인 것
     - 필드:변수
     
-    ![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%208.png)
+    ![Untitled](JAVA.png)
     
 - 클래스가 하는 작업이 1회용이 아닌 긴 맥락의 꼬리에 꼬리를 무는 작업이라면 클래스를 복제한 인스턴스를 만들어서 그것을 사용할 수 있도록 사용자에게 제공하는 것이 더 효율적이기 때문에 그에 맞춰서 코드를 제작하게 된 것
     
@@ -115,16 +115,16 @@ Exception:에러
     
     new 뒤에 있는 애가 constructor →constructor앞에 new를 붙이면 복제되서 p1이라는 인스턴스가 되고 그 인스턴스에 어떤 값이 올수 있는지를 규제하기 위해 앞에 Printwriter이라는 클래스의 이름을 적음
     
-    ![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%209.png)
+    ![Untitled](JAVA.png)
     
 - 상속:자식클래스가 부모클래스로부터 변수나 매소드를 가져와서 사용할 수 있게 하는 것
 - 오버라이드:부모클래스의 매소드를 덮어쓰기하여 자기자신의 클래스만의 매소드로 사용하는것
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%2010.png)
+![Untitled](JAVA.png)
 
 - 배열을 도입함으로써 각각의 값들이 연관된 것이라는 것을 알 수 있음, 하나의 변수만 가지고 있음→배열이란 서로 연관된 데이터를 정리정돈하는 수단이라고 볼 수 있음
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%2011.png)
+![Untitled](JAVA.png)
 
 - 메소드:서로 연관된 코드를 그룹핑해서 이름을 붙인 정리정돈의 상자
 - 클래스(객체):서로 연관된 변수와 메소드를 그룹핑하여 이것에 이름을 붙인 것, 정리정돈의 상자
@@ -133,7 +133,7 @@ Exception:에러
     메소드로 구조를 잡고 메소드와 변수를 그룹핑하여 클래스로 구조를 잡고 클래스를 복제한 인스턴스를 통해서 또 다른 구조를 만드는 방식
     
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%2012.png)
+![Untitled](JAVA.png)
 
 # **JAVA 제어문**
 
@@ -145,7 +145,7 @@ Exception:에러
     
     자바의 데이터 타입
     
-    ![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%2013.png)
+    ![Untitled](JAVA.png)
     
     “==” : 동등비교 연산자는 같은 곳에 있냐라는 것을 따져보는 것
     
@@ -157,7 +157,7 @@ Exception:에러
     
     문자열은 동등비교연산자로 해도 가능하기도 함
     
-    ![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%2014.png)
+    ![Untitled](JAVA.png)
     
 - 논리연산자
     - and연산자:&&
@@ -166,15 +166,15 @@ Exception:에러
 
 - 반복문
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%2015.png)
+![Untitled](JAVA.png)
 
 - 배열
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%2016.png)
+![Untitled](JAVA.png)
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%2017.png)
+![Untitled](JAVA.png)
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%2018.png)
+![Untitled](JAVA.png)
 
 인덱스:0,1,2와 같은 자릿수, 우리가 원하는 값을 찾을 때 쓰는 색인
 
@@ -190,11 +190,11 @@ Exception:에러
     즉, 클래스의 복제본을 만들어서 그것을 제어하는 경우
     
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%2019.png)
+![Untitled](JAVA.png)
 
         클래스를 직접사용하는 경우
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%2020.png)
+![Untitled](JAVA.png)
 
         Class : System, Math, FileWriter
 
@@ -222,7 +222,7 @@ Exception:에러
     →인스턴스의 소속이라고 봐도 됨
     
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%2021.png)
+![Untitled](JAVA.png)
 
 - static
     
@@ -232,7 +232,7 @@ Exception:에러
     
     회색으로 표시된 애들은 서로 연결되어있다고 봐도됨→수정하면 연결되어 있는 애들은 모두 같이 수정됨(본체공유느낌)
     
-    ![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%2022.png)
+    ![Untitled](JAVA.png)
     
 - 생성자:초기에 주입할 필요가 있는 값을 전달하거나, 초기의 작업을 수행하도록 할 때 씀
     
@@ -240,10 +240,10 @@ Exception:에러
     
 - this키워드:클래스가 인스턴스화 되었을 때의 인스턴스를 가르키는 특수한 이름
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%2023.png)
+![Untitled](JAVA.png)
 
 Print 메소드의 생성자의 delimiter매개변수를 가르키게 됨
 
 →this.delimiter로 바꿔주면 인스턴스의 delimiter변수를 가르키게 됨
 
-![Untitled](JAVA%203d99610e2af4476896eab6ae14a78170/Untitled%2024.png)
+![Untitled](JAVA.png)
