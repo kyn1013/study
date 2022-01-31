@@ -9,7 +9,7 @@ int main() {
 	int num=8;
 
 	len++;
-	for (int j = len - 1, k = j + 1; j >= idex; j--, k--) a[k] = a[j];
+	for (int j = len - 1, k = j + 1; j > idex; j--, k--) a[k] = a[j];
 	for (int i = 0; i < len;i++) if (i == idex) a[i] = num;
 
 	for (int i = 0; i < 4; i++) cout << a[i] << " ";
