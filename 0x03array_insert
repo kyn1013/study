@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int a[10] = { 1,2,3 };
+	//인덱스 1에 8을 넣고싶다.
+	int idex=1;
+	int	len=3;
+	int num=8;
+
+	len++;
+	for (int j = len - 1, k = j + 1; j >= idex; j--, k--) a[k] = a[j];
+	for (int i = 0; i < len;i++) if (i == idex) a[i] = num;
+
+	for (int i = 0; i < 4; i++) cout << a[i] << " ";
+
+}
